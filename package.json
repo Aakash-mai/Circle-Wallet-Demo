@@ -1,0 +1,24 @@
+{
+  "name": "circle-wallet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@circle-fin/developer-controlled-wallets": "^8.2.0",
+    "@circle-fin/smart-contract-platform": "^8.2.0",
+    "@circle-fin/user-controlled-wallets": "^8.2.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "node-fetch": "^2.7.0",
+    "uuid": "^11.1.0"
+  }
+}
